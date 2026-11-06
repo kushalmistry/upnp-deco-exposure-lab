@@ -1,0 +1,29 @@
+# --- Secrets / environment-specific (never commit) ---
+# Redact before adding; this just guards against accidental raw captures.
+*.local
+*.env
+.env*
+secrets*
+raw-*            # raw, unredacted scan output or captures
+*-unredacted.*
+rootDesc.xml     # device description contains your device-specific control paths
+
+# --- Screenshots: keep only reviewed/redacted ones ---
+screenshots/raw/
+screenshots/*-raw.*
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- PowerShell transcripts / logs ---
+*.log
+PowerShell_transcript.*
+nmap-*.txt
