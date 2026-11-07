@@ -8,6 +8,7 @@ A hands-on proof of concept showing that an enabled UPnP (Universal Plug and Pla
 
 All testing was performed on my own network and devices. Public and internal addresses are redacted throughout.
 
+See [DETECTIONS.md](DETECTIONS.md) for detection logic (Sigma + CrowdStrike NG-SIEM), ATT&CK mapping, and validation evidence.
 ---
 
 ## TL;DR
