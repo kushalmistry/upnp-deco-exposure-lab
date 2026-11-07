@@ -1,6 +1,8 @@
 # UPnP Exposure Lab: TP-Link Deco M5
 
-A hands-on proof of concept showing that an enabled UPnP IGD lets **any device on the LAN open an internet-facing port to itself with no authentication**, and that the opened port is reachable from the public internet.
+A hands-on proof of concept showing that an enabled UPnP (Universal Plug and Play) IGD lets any device on the LAN open an internet-facing port to itself with no authentication, and that the opened port is reachable from the public internet.
+
+> What is UPnP? A protocol that lets devices on a home network set themselves up automatically. Its Internet Gateway Device (IGD) feature lets a device ask the router to open a port on its own, with no password. Convenient, and the root of the problem shown here.
 
 > **Result:** From a phone on cellular (off the home Wi-Fi entirely), I reached a service on a laptop inside the network through a port the laptop opened on the router itself, with no credentials and no prompt.
 
